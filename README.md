@@ -44,9 +44,8 @@ Students seeking help with concepts or coursework should plan to attend office h
 | :---------- | :----------------- | :------------- |
 | Monday      | 10:00 - 11:30 AM   | Alex           |
 | Thursday    | 10:00 - 11:30 AM   | Alex           |
-| TBA         | TBA                | Andrew         |
-| TBA         | TBA                | Andrew         |
-| TBA         | TBA                | Andrew         |
+| Monday      |  3:00 -  4:30 PM   | Andrew         |
+| Wednesday   |  3:00 -  4:00 PM   | Andrew         |
 | TBA         | TBA                | Pratham        |
 | TBA         | TBA                | Pratham        |
 | TBA         | TBA                | Pratham        |
