@@ -32,29 +32,25 @@ We will not be relying on EdTech systems like EdStem. We will use Canvas only to
 
 ### Class sessions
 
-We will hold class *Tuesday and Thursday 12:30 PM - 01:50 PM* in *Ryerson Physics Lab 276*.
+We will hold class **Tuesday and Thursday 12:30 PM - 01:50 PM* in *Ryerson Physics Lab 276**.
 
 ### Office hours
 
 Students seeking help with concepts or coursework should plan to attend office hours. We will hold the following office hours each week unless posted otherwise.
 
-*We will fill in missing information about office hours ASAP.*
+| Day of week | Time of day         | Person hosting |
+| :---------- | :-----------------  | :------------- |
+| Monday      | 10:00 AM - 11:30 AM | Alex           |
+| Tuesday     |  9:00 AM - 12:00 PM | Pratham        |
+| Monday      |  3:00 PM -  4:30 PM | Andrew         |
+| Wednesday   |  3:00 PM -  4:00 PM | Andrew         |
+| Thursday    | 10:00 AM - 11:30 AM | Alex           |
 
-| Day of week | Time of day        | Person hosting |
-| :---------- | :----------------- | :------------- |
-| Monday      | 10:00 - 11:30 AM   | Alex           |
-| Monday      |  3:00 -  4:30 PM   | Andrew         |
-| Wednesday   |  3:00 -  4:00 PM   | Andrew         |
-| Thursday    | 10:00 - 11:30 AM   | Alex           |
-| TBA         | TBA                | Pratham        |
-| TBA         | TBA                | Pratham        |
-| TBA         | TBA                | Pratham        |
-
-Alex will hold office hours in John Crerar Library room 263. *Please do not come to my office in person if you are sick.*
+Alex will hold office hours in John Crerar Library room 263.
 
 Andrew will hold office hours via [Zoom](https://uchicago.zoom.us/j/2657888653?pwd=WldrZkdSNUFPUlU3Vkp5WlFlZkJrUT09).
 
-Pratham will hold office hours... (TBA) 
+Pratham will hold office hours in John Crerar Library room 205.
 
 Due to conference travel, **Alex be unavailable April 23 - April 29, and Andrew will be unavailable April 20 - May 7**. We will schedule extra office hours around these times to make sure students have access to help.
 
