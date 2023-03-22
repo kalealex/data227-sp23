@@ -41,16 +41,18 @@ Students seeking help with concepts or coursework should plan to attend office h
 | Day of week | Time of day         | Person hosting |
 | :---------- | :-----------------  | :------------- |
 | Monday      | 10:00 AM - 11:30 AM | Alex           |
-| Tuesday     |  9:00 AM - 12:00 PM | Pratham        |
+| Monday     |  10:30 AM - 11:30 AM | Pratham        |
 | Monday      |  3:00 PM -  4:30 PM | Andrew         |
 | Wednesday   |  3:00 PM -  4:00 PM | Andrew         |
+| Wednesday   |  10:30 AM - 11:30 AM | Pratham       |
 | Thursday    | 10:00 AM - 11:30 AM | Alex           |
+| Friday     |  10:30 AM - 11:30 AM | Pratham        |
 
 Alex will hold office hours in John Crerar Library room 263.
 
 Andrew will hold office hours via [Zoom](https://uchicago.zoom.us/j/2657888653?pwd=WldrZkdSNUFPUlU3Vkp5WlFlZkJrUT09).
 
-Pratham will hold office hours in John Crerar Library room 205.
+Pratham will hold office hours via [Zoom](https://people.cs.uchicago.edu/~pratham/zoom).
 
 Due to conference travel, **Alex be unavailable April 23 - April 29, and Andrew will be unavailable April 20 - May 7**. We will schedule extra office hours around these times to make sure students have access to help.
 
