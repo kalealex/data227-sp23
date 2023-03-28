@@ -45,7 +45,7 @@ Students seeking help with concepts or coursework should plan to attend office h
 | Monday      |  3:00 PM -  4:30 PM | Andrew         |
 | Wednesday   | 10:30 AM - 11:30 AM | Pratham        |
 | Wednesday   |  3:00 PM -  4:00 PM | Andrew         |
-| Wednesday   |  10:30 AM - 11:30 AM | Pratham       |
+| Wednesday   | 10:30 AM - 11:30 AM | Pratham        |
 | Thursday    | 10:00 AM - 11:30 AM | Alex           |
 | Friday      | 10:30 AM - 11:30 AM | Pratham        |
 
