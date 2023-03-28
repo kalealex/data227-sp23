@@ -41,10 +41,12 @@ Students seeking help with concepts or coursework should plan to attend office h
 | Day of week | Time of day         | Person hosting |
 | :---------- | :-----------------  | :------------- |
 | Monday      | 10:00 AM - 11:30 AM | Alex           |
-| Tuesday     |  9:00 AM - 12:00 PM | Pratham        |
+| Monday      | 10:30 AM - 11:30 AM | Pratham        |
 | Monday      |  3:00 PM -  4:30 PM | Andrew         |
+| Wednesday   | 10:30 AM - 11:30 AM | Pratham        |
 | Wednesday   |  3:00 PM -  4:00 PM | Andrew         |
 | Thursday    | 10:00 AM - 11:30 AM | Alex           |
+| Friday      | 10:30 AM - 11:30 AM | Pratham        |
 
 Alex will hold office hours in John Crerar Library room 263.
 
