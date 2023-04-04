@@ -7,9 +7,6 @@ Completion of or placement out of DATA 11800, CMSC 12100, CMSC 15100, or CMSC 16
 Students are expected to enter the course with a basic knowledge of programming in Python (including working with dataframes) and mathematical foundations of statistical modeling. Students who are uncomfortable with these topics may find DATA 22700 especially challenging but are nonetheless encouraged to apply themselves and grow. Both creating graphics and working with data involve many difficulties that must be confronted with patience and perserverence, but both skills will benefit students tremendously in a wide variety of endeavors. 
 
 
-
-Excercise 3 link: https://drive.google.com/drive/folders/12s0W_9xKqqPtq7z8Kq94TewyKGvVcD6v?usp=sharing
-
 ## Course objectives
 
 Upon completion of the course, students should be able to:
@@ -216,9 +213,14 @@ Final grades are based on the following table. The number of Satisfactory scores
 
 ### Late policy
 
-Late submissions are not accepted in this class, except under extraordinary circumstances. Assignments and the project will have specific due dates, which students must adhere to. *Exercises can be turned in at any time before the project due date*. Please bear in mind that the grading scheme is set up to absorb a reasonable amount of sub-par work. Turning in something unpolished is much better than not turning in anything at all.
+Late submissions are not accepted in this class, except under the specific circumstances (see below). Assignments and the project will have specific due dates, which students must adhere to. *Exercises can be turned in at any time before the project due date*. Please bear in mind that the grading scheme is set up to absorb a reasonable amount of sub-par work. Turning in something unpolished is much better than not turning in anything at all.
 
-If you have an emergency and feel it warrants an exception to this policy, you should first be in contact with your College advisor, as the College should be aware of the emergency and ensure that any proper university or department policies are followed if needed (for example, an injury might require SDS accommodations). Once you have contacted the College, please contact us by email with a CC to your College advisor. Contacting us as early as is practical given the emergency makes the process of accommodating your situation work more smoothly for everyone. We care about your well-being and success in the class, and have put these policies in place to be fair and give students agency.
+Exceptions to the no late work policy:
+
+- **Late chips**: Students get one late chip they may use during the quarter to turn in an assignment up to 48 hours after the deadline posted on Gradescope. To use a late chip, email the instructor your work within 48 hours of the posted deadline, and say that you are using your late chip. Students may only use one late chip in the quarter. Late chips may not be used more than 48 hours after the deadline. Late chips may only be used for assignments, not for exercises or the project.
+- **Emergencies**: If you have an emergency and feel it warrants an exception to the no late work policy, you should first be in contact with your College advisor, as the College should be aware of the emergency and ensure that any proper university or department policies are followed if needed (for example, an injury might require SDS accommodations). Once you have contacted the College, please contact us by email with a CC to your College advisor. Contacting us as early as is practical given the emergency makes the process of accommodating your situation work more smoothly for everyone. We care about your well-being and success in the class, and have put these policies in place to be fair and give students agency.
+
+No other exceptions will be made.
 
 ### Grade disputes
 
