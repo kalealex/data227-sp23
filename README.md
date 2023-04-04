@@ -7,6 +7,9 @@ Completion of or placement out of DATA 11800, CMSC 12100, CMSC 15100, or CMSC 16
 Students are expected to enter the course with a basic knowledge of programming in Python (including working with dataframes) and mathematical foundations of statistical modeling. Students who are uncomfortable with these topics may find DATA 22700 especially challenging but are nonetheless encouraged to apply themselves and grow. Both creating graphics and working with data involve many difficulties that must be confronted with patience and perserverence, but both skills will benefit students tremendously in a wide variety of endeavors. 
 
 
+
+Excercise 3 link: https://drive.google.com/drive/folders/12s0W_9xKqqPtq7z8Kq94TewyKGvVcD6v?usp=sharing
+
 ## Course objectives
 
 Upon completion of the course, students should be able to:
