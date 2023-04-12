@@ -27,6 +27,11 @@ This is where we'll post links to software tools and demos, separated by topic.
 - Interactive [scatterplot matrix](https://vega.github.io/vega/examples/brushing-scatter-plots/)
 - More to come...
 
+### Choosing colors
+
+- An overview of [color schemes](https://observablehq.com/@d3/color-schemes) available in Altair.
+- The [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) tool for choosing color palettes.
+
 
 ## Readings
 
