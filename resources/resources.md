@@ -32,6 +32,10 @@ This is where we'll post links to software tools and demos, separated by topic.
 - An overview of [color schemes](https://observablehq.com/@d3/color-schemes) available in Altair.
 - The [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) tool for choosing color palettes.
 
+### Map projections
+
+- An interactive gallery of [map projections](https://observablehq.com/@d3/projection-transitions) available in Altair
+
 
 ## Readings
 
