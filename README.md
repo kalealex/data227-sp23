@@ -104,7 +104,7 @@ April 20 - Animation
 
 ### Week 6: Wildcard (Alex and Andrew away at CHI)
 
-April 25 - Guest lecture
+April 25 - Class canceled
 
 April 27 - Project check-in with Pratham (Exercise 6)
 
