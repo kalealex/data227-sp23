@@ -53,7 +53,13 @@ Here are optional readings for the course separated by topic.
 - Particularly interesting violations of the expressiveness principle (a.k.a. "tell the truth and nothing but the truth") occur when people's expectations about what a certain kind of chart will show are violated. Among other sources, these expectations are informed by **graphical conventions**, such as the expectations that people have about the semantics of bars and lines addressed in this [paper by Zacks and Tversky](https://dcl.wustl.edu/files/2017/09/zacksmemcog99-12d5ktx.pdf), which I mentioned in class.
 - A few years ago, some of my colleagues at Northwestern decided there was too much visualization research for practitioners to keep up with. They led an effort to write this review article summarizing the [science of "what works"](https://journals.sagepub.com/doi/reader/10.1177/15291006211051956) in data visualization design.
 
+### Interaction and animation
 
+- Data driven documents ([D3](http://vis.stanford.edu/papers/d3)) is the javascript library that supports most interactive visualizations on the web.
+- [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/) are declarative grammars for interactive visualization that compile to D3 visualizations. Altair leverages this software stack by wrapping python syntax around Vega-Lite.
+- [Animated Transitions in Statistical Graphics](https://idl.cs.washington.edu/files/2007-AnimatedTransitions-InfoVis.pdf) is an authoritative paper on animation design for visualization.
+- Interesting paper on using [animation to show aggregation operations](https://idl.cs.washington.edu/files/2019-AnimatedAggregates-EuroVis.pdf)
+- [Animation: Can it facilitate?](https://hci.stanford.edu/courses/cs448b/papers/Tversky_AnimationFacilitate_IJHCS02.pdf) is a great review article by Barbara Tversky
 
 
 
