@@ -61,5 +61,13 @@ Here are optional readings for the course separated by topic.
 - Interesting paper on using [animation to show aggregation operations](https://idl.cs.washington.edu/files/2019-AnimatedAggregates-EuroVis.pdf)
 - [Animation: Can it facilitate?](https://hci.stanford.edu/courses/cs448b/papers/Tversky_AnimationFacilitate_IJHCS02.pdf) is a great review article by Barbara Tversky
 
+### Narrative visualization, deception, and persuasion
 
+- Hullman's paper on [visualization rhetoric](http://users.eecs.northwestern.edu/~jhullman/vis_rhetoric.pdf).
+- Correll's paper on [truncating the y-axis](https://arxiv.org/pdf/1907.02035).
+- Correll's paper on [visualization ethics](https://arxiv.org/pdf/1811.07271).
+- Hans Rosling's [visualization storytelling](https://www.youtube.com/watch?v=hVimVzgtD6w)
+- Segel and Heer's [analysis of narrative strategies](https://idl.cs.washington.edu/files/2010-Narrative-InfoVis.pdf) in data storytelling.
+- Hohman et al's [analysis of interactive articles](https://distill.pub/2020/communicating-with-interactive-articles/).
+- [Idyll](https://idyll-lang.org/gallery) language for interactive data stories. See also papers on [Idyll](https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf) and [Idyll Studio](https://idl.cs.washington.edu/files/2021-IdyllStudio-UIST.pdf).
 
