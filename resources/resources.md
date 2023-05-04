@@ -20,12 +20,13 @@ This is where we'll post links to software tools and demos, separated by topic.
 - [Intro to pandas](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb#scrollTo=JndnmDMp66FL) in Google Colab
 - The primary visualization API we teach in this course is **Altair**. Check out their [user guide](https://altair-viz.github.io/user_guide/data.html), [example gallery](https://altair-viz.github.io/gallery/index.html), [API](https://altair-viz.github.io/user_guide/API.html), and more on the same website! 
 - Altair is actually a wrapper around a JavaScript library called Vega-Lite. If you're interested, check out the [Vega-Lite example gallery](https://vega.github.io/vega-lite/examples/) to compare its syntax with that of Altair.
+- [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/) are declarative grammars for interactive visualization that compile to [D3](https://d3js.org/) visualizations. Altair leverages this software stack by wrapping python syntax around Vega-Lite.
 - From the creators of popular visualization toolkits like D3, Vega, and Vega-Lite, the University of Washington Interactive Data Lab has graciously made their [visualization curriculum](https://github.com/uwdata/visualization-curriculum) public! The notebooks posted here give an excellent walkthrough of some topics we'll cover in this course.
 
 ### Demos
 
 - Interactive [scatterplot matrix](https://vega.github.io/vega/examples/brushing-scatter-plots/)
-- More to come...
+- Hans Rosling's [visualization storytelling](https://www.youtube.com/watch?v=hVimVzgtD6w)
 
 ### Choosing colors
 
@@ -35,6 +36,10 @@ This is where we'll post links to software tools and demos, separated by topic.
 ### Map projections
 
 - An interactive gallery of [map projections](https://observablehq.com/@d3/projection-transitions) available in Altair
+
+### Data stories
+
+- [Idyll](https://idyll-lang.org/gallery) language for interactive data stories.
 
 
 ## Readings
@@ -53,10 +58,13 @@ Here are optional readings for the course separated by topic.
 - Particularly interesting violations of the expressiveness principle (a.k.a. "tell the truth and nothing but the truth") occur when people's expectations about what a certain kind of chart will show are violated. Among other sources, these expectations are informed by **graphical conventions**, such as the expectations that people have about the semantics of bars and lines addressed in this [paper by Zacks and Tversky](https://dcl.wustl.edu/files/2017/09/zacksmemcog99-12d5ktx.pdf), which I mentioned in class.
 - A few years ago, some of my colleagues at Northwestern decided there was too much visualization research for practitioners to keep up with. They led an effort to write this review article summarizing the [science of "what works"](https://journals.sagepub.com/doi/reader/10.1177/15291006211051956) in data visualization design.
 
+### Cartigraphy
+
+- A nice [survey paper](https://parkerziegler.com/papers/a-need-finding-study-with-users-of-geospatial-data.pdf) on map making tools and why they are mostly hard to use
+
 ### Interaction and animation
 
 - Data driven documents ([D3](http://vis.stanford.edu/papers/d3)) is the javascript library that supports most interactive visualizations on the web.
-- [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/) are declarative grammars for interactive visualization that compile to D3 visualizations. Altair leverages this software stack by wrapping python syntax around Vega-Lite.
 - [Animated Transitions in Statistical Graphics](https://idl.cs.washington.edu/files/2007-AnimatedTransitions-InfoVis.pdf) is an authoritative paper on animation design for visualization.
 - Interesting paper on using [animation to show aggregation operations](https://idl.cs.washington.edu/files/2019-AnimatedAggregates-EuroVis.pdf)
 - [Animation: Can it facilitate?](https://hci.stanford.edu/courses/cs448b/papers/Tversky_AnimationFacilitate_IJHCS02.pdf) is a great review article by Barbara Tversky
@@ -66,8 +74,9 @@ Here are optional readings for the course separated by topic.
 - Hullman's paper on [visualization rhetoric](http://users.eecs.northwestern.edu/~jhullman/vis_rhetoric.pdf).
 - Correll's paper on [truncating the y-axis](https://arxiv.org/pdf/1907.02035).
 - Correll's paper on [visualization ethics](https://arxiv.org/pdf/1811.07271).
-- Hans Rosling's [visualization storytelling](https://www.youtube.com/watch?v=hVimVzgtD6w)
+- Recent analysis of [how people actually lie with charts](https://dl.acm.org/doi/pdf/10.1145/3544548.3580910).
 - Segel and Heer's [analysis of narrative strategies](https://idl.cs.washington.edu/files/2010-Narrative-InfoVis.pdf) in data storytelling.
 - Hohman et al's [analysis of interactive articles](https://distill.pub/2020/communicating-with-interactive-articles/).
-- [Idyll](https://idyll-lang.org/gallery) language for interactive data stories. See also papers on [Idyll](https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf) and [Idyll Studio](https://idl.cs.washington.edu/files/2021-IdyllStudio-UIST.pdf).
+- Papers on [Idyll](https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf) and [Idyll Studio](https://idl.cs.washington.edu/files/2021-IdyllStudio-UIST.pdf).
+
 
