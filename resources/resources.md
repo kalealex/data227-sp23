@@ -22,11 +22,15 @@ This is where we'll post links to software tools and demos, separated by topic.
 - Altair is actually a wrapper around a JavaScript library called Vega-Lite. If you're interested, check out the [Vega-Lite example gallery](https://vega.github.io/vega-lite/examples/) to compare its syntax with that of Altair.
 - [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/) are declarative grammars for interactive visualization that compile to [D3](https://d3js.org/) visualizations. Altair leverages this software stack by wrapping python syntax around Vega-Lite.
 - From the creators of popular visualization toolkits like D3, Vega, and Vega-Lite, the University of Washington Interactive Data Lab has graciously made their [visualization curriculum](https://github.com/uwdata/visualization-curriculum) public! The notebooks posted here give an excellent walkthrough of some topics we'll cover in this course.
+- The [PyMC](https://www.pymc.io/welcome.html) and [arviz](https://python.arviz.org/en/stable/examples/index.html) APIs for Bayesian statistics workflows in Python.
+- Matthew Kay's [ggdist R package](https://mjskay.github.io/ggdist/) for visualizing distributions.
 
-### Demos
+### Demos and videos
 
 - Interactive [scatterplot matrix](https://vega.github.io/vega/examples/brushing-scatter-plots/)
 - Hans Rosling's [visualization storytelling](https://www.youtube.com/watch?v=hVimVzgtD6w)
+- Amanda Cox from the New York Times on [uncertainty visualizations in the news](https://www.youtube.com/watch?v=0L1tGo-DvD0) (2:55 – 10:43)
+
 
 ### Choosing colors
 
@@ -79,4 +83,8 @@ Here are optional readings for the course separated by topic.
 - Hohman et al's [analysis of interactive articles](https://distill.pub/2020/communicating-with-interactive-articles/).
 - Papers on [Idyll](https://idl.cs.washington.edu/files/2018-Idyll-UIST.pdf) and [Idyll Studio](https://idl.cs.washington.edu/files/2021-IdyllStudio-UIST.pdf).
 
+### Uncertainty visualization
 
+- Hullman's article on [Why authors don't visualize uncertainty](https://mucollective.northwestern.edu/files/2019-Value%20of%20Uncertainty-VIS.pdf).
+- Kay's first study on [uncertainty in bus arrival times](https://mucollective.northwestern.edu/files/2016-WhenIsMyBus-CHI.pdf) where he introduces quantile dotplots, and the [second study](https://mucollective.northwestern.edu/files/2018-UncertainBusDecisions-CHI.pdf) where they use a decision task.
+- Prof. Kale's work on [decision making with uncertainty visualizations](https://mucollective.northwestern.edu/files/2020%20-%20Kale,%20Visual%20Reasoning%20Strategies%20for%20Effect%20Size%20Judgements.pdf).
