@@ -55,7 +55,7 @@ Andrew will hold office hours via [Zoom](https://uchicago.zoom.us/j/2657888653?p
 
 Pratham will hold office hours via [Zoom](https://people.cs.uchicago.edu/~pratham/zoom).
 
-Due to conference travel, **Alex be unavailable April 23 - April 29, and Andrew will be unavailable April 20 - May 7**. We will schedule extra office hours around these times to make sure students have access to help.
+Due to conference travel, **Alex be unavailable April 23 - April 29, and Andrew will be unavailable April 20 - May 7, and May 10**. We will schedule extra office hours around these times to make sure students have access to help.
 
 ### Materials, turn-in, and gradebook
 
