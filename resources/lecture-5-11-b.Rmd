@@ -1,0 +1,165 @@
+---
+title: "DATA 227: Stats Review Part B"
+author: "Alex Kale"
+date: "2023-05-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(brms)
+library(tidybayes)
+library(ggdist)
+```
+
+## Loading the prepping the data
+
+Let's get back to where we left off in terms of preparing the dataset.
+
+```{r cars}
+df = read_csv("../data/Titanic.csv", col_select = c("Name", "PClass", "Age", "Sex", "Survived"))
+head(df)
+```
+
+```{r}
+df = df |> 
+  mutate(
+    sex = if_else(Sex == "female", 1, 0),
+    class = case_when(
+      PClass == "1st" ~ 0,
+      PClass == "2nd" ~ 1,
+      TRUE            ~ 2)
+  ) |> 
+  drop_na()
+head(df)
+```
+## A model with survived and sex as predictors
+
+The next step in our model expansion workflow.
+
+```{r}
+m2 = brm(
+  bf("Age ~ Survived + sex"),
+  family = "lognormal",
+  data = df,
+  iter = 2000, warmup = 1000, chains = 2)
+```
+
+```{r}
+summary(m2)
+```
+
+```{r}
+plot(m2)
+```
+
+```{r}
+pairs(m2)
+```
+
+Inferential and predictive uncertainty
+
+```{r}
+m2est_df = df |> 
+  add_epred_draws(m2, ndraws = 200)
+
+head(m2est_df)
+```
+
+```{r}
+df %>%
+  ggplot(aes(x = Age, y = as.factor(sex))) +
+  stat_halfeye(aes(x = .epred), scale = 0.6, position = position_nudge(y = 0.175), data = m2est_df) +
+  geom_point(position = position_jitter(height = 0.1), alpha = 0.6, data = df) +
+  scale_color_brewer() +
+  facet_grid(. ~ Survived) +
+  theme_bw()
+```
+
+```{r}
+m2pred_df = df %>%
+  add_predicted_draws(m2, ndraws = 200)
+
+head(m2pred_df)
+```
+
+```{r}
+df %>%
+  ggplot(aes(x = Age, y = as.factor(sex))) +
+  stat_interval(aes(x = .prediction), position = position_nudge(y = 0.175), data = m2pred_df) +
+  geom_point(position = position_jitter(height = 0.1), alpha = 0.6, data = df) +
+  scale_color_brewer() +
+  facet_grid(. ~ Survived) +
+  theme_bw()
+```
+
+Maybe we need to add class and interactions with it.
+
+## A model with class and interactions
+
+Skipping a step or two in our model expansion workflow. Need to backtrack if something goes wrong.
+
+```{r}
+m3 = brm(
+  bf("Age ~ Survived * sex * class"),
+  family = "lognormal",
+  data = df,
+  iter = 2000, warmup = 1000, chains = 2)
+```
+
+```{r}
+summary(m3)
+```
+
+```{r}
+plot(m3)
+```
+
+```{r}
+pairs(m3)
+```
+
+Inferential and predictive uncertainty
+
+```{r}
+m3est_df = df |> 
+  add_epred_draws(m3, ndraws = 200)
+
+head(m3est_df)
+```
+
+```{r}
+df %>%
+  ggplot(aes(x = Age, y = as.factor(sex))) +
+  stat_halfeye(aes(x = .epred), scale = 0.6, position = position_nudge(y = 0.175), data = m3est_df) +
+  geom_point(position = position_jitter(height = 0.1), alpha = 0.6, data = df) +
+  scale_color_brewer() +
+  facet_grid(class ~ Survived) +
+  theme_bw()
+```
+
+```{r}
+m3pred_df = df %>%
+  add_predicted_draws(m3, ndraws = 200)
+
+head(m3pred_df)
+```
+
+```{r}
+df %>%
+  ggplot(aes(x = Age, y = as.factor(sex))) +
+  stat_interval(aes(x = .prediction), position = position_nudge(y = 0.175), data = m3pred_df) +
+  geom_point(position = position_jitter(height = 0.1), alpha = 0.6, data = df) +
+  scale_color_brewer() +
+  facet_grid(class ~ Survived) +
+  theme_bw()
+```
+
+In R, a very wide range of uncertainty visualizations are expressible. This is especially helpful for handling model outputs.
+See http://mjskay.github.io/tidybayes/articles/tidy-brms.html#posterior-means-and-predictions
+
+
