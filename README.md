@@ -195,21 +195,31 @@ There are a total of 9 S/U scores for exercises, one per exercise.
 
 In total, students receive 19 S/N/U scores, with only 10 N scores possible.
 
-Final grades are based on the following table. The number of Satisfactory scores determines a student's letter grade, and the number of Needs improvement scores determines plus and minus within each letter grade.
+Final grades are based on the following table. The number of Satisfactory scores determines a student's letter grade. The number of Needs improvement scores, plus any additional Satisfactory scores beyond those needed for a given letter grade, determine plus and minus within each letter grade.
 
-| Minimum S Required | Minimum N Required | Final Grade |
-| :----------------- | :----------------- | :---------- |
-| 17                 | 2                  | A           |
-| 17                 | 0                  | A-          |
-| 15                 | 4                  | B+          |
-| 15                 | 2                  | B           |
-| 15                 | 0                  | B-          |
-| 13                 | 4                  | C+          |
-| 13                 | 2                  | C           |
-| 13                 | 0                  | C-          |
-| 11                 | 2                  | D+          |
-| 11                 | 0                  | D           |
-| 10 and below       | NA                 | F           |
+| Minimum S Required | Minimum N (or additional S) Required | Final Grade |
+| :----------------- | :----------------------------------- | :---------- |
+| 17                 | 2                                    | A           |
+| 17                 | 0                                    | A-          |
+| 15                 | 4                                    | B+          |
+| 15                 | 2                                    | B           |
+| 15                 | 0                                    | B-          |
+| 13                 | 4                                    | C+          |
+| 13                 | 2                                    | C           |
+| 13                 | 0                                    | C-          |
+| 11                 | 2                                    | D+          |
+| 11                 | 0                                    | D           |
+| 10 and below       | NA                                   | F           |
+
+Consider some examples:
+
+- A student with 18 S, 1 N, and 0 U would get an A
+- A student with 17 S, 1 N, and 1 U would get an A-
+- A student with 16 S, 3 N, and 0 U would get a B+
+- A student with 15 S, 2 N, and 2 U would get a B
+- A student with 13 S, 1 N, and 5 U would get a C-
+- A student with 12 S, 5 N, and 2 U would get a D+
+- A student with 10 S, 8 N, and 1 U would get an F
 
 ### Late policy
 
